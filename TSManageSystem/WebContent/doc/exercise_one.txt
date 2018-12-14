@@ -1,0 +1,81 @@
+prepare to 
+
+	1. Write a program, give a student grade, 
+	give the corresponding level:
+
+
+
+ (15m) 13:00pm
+	90~100 excellent
+
+
+
+
+	80~89 is good
+
+
+
+
+	70~79 medium
+
+
+
+
+	60~69 pass
+
+
+
+
+	0~59 failed.
+	1) pls formated your program
+	
+
+
+
+
+	2.There is a three-digit number, 
+	the numbers are composed of 1, 2, 3, and 4, 
+	and the adjacent two numbers cannot be equal. 
+	How many combinations are there? (15m) 13:15pm
+
+	i ,j , k
+	for(int i =1;i<5;i+){
+		for(j = 1 < 5
+			for(k =1 < 5){
+				if(i!=j&& i!= k&& j!=k){
+					String  threeDigit= i+""+j+""+k;
+
+
+
+	3. 请画出Student 和 Teacher 的ER Diagram
+	   StudentInfo:
+		studentId;
+		studentName;
+		studentLevel;
+		studentAge;
+
+
+
+
+
+           req：需要查询该老师有多少学员并打印学员信息
+		queryTeacherAllStudentDetails();
+	   	have three layer arthecture(三层体系)
+
+		
+	CREATE TABLE STUDENT(	
+		STUDENT_ID INT PRIMARY KEY,
+		STUDENT_NAME VARCHAR(50) NOT NULL,
+		STUDENT_AGE TIMESTAMP NOT NULL,
+		STUDENT_ADDRESS VARCHAR(100) NOT NULL,
+		STUDENT_MOBILE VARCHAR(11) NULL,
+		STUDENT_EMAIL VARCHAR(100) NULL,
+		STUDENT_CREATED_NAME INT NOT NULL,
+		STUDENT_CREATED_DATE TIMESTAMP NOT NULL,
+		STUDENT_UPDATED_NAME INT NOT NULL,
+		STUDENT_UPDATED_DATE TIMESTAMP NOT NULL
+	）;
+
+
+
+

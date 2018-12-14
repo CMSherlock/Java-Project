@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+table {
+	font-family: verdana, arial, sans-serif;
+	font-size: auto;
+	color: #333333;
+	border:none;
+	border-collapse: collapse;
+}
+th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+
+td {
+	word-break: keep-all;
+	white-space:nowrap;
+	border-width: 1px;
+	padding: 8px;
+	text-align: center;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+.BorderZero td{
+	border-style: none;
+	background: rgba(0,0,0,0);
+}
